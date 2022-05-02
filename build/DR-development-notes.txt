@@ -1,0 +1,34 @@
+2022-05-02:
+
+The "gulf2" package is my attempt at creating an umbrella package to encapsulate Tobie Surette's new packages.
+
+The first things I did was to fork the following repositories into my GitHub personal account:
+
+https://github.com/TobieSurette/gulf.data
+https://github.com/TobieSurette/gulf.graphics
+https://github.com/TobieSurette/guf.manage
+https://github.com/TobieSurette/gulf.metadata
+https://github.com/TobieSurette/gulf.spatial
+https://github.com/TobieSurette/gulf.stats
+https://github.com/TobieSurette/gulf.utils
+
+I then cloned the forked repositories to my local machine and added a remote pointing back to Tobie's repositories:
+
+cd ../gulf.data/
+git remote add upstream https://github.com/TobieSurette/gulf.data.git
+cd ../gulf.graphics/
+git remote add upstream https://github.com/TobieSurette/gulf.graphics.git
+cd ../gulf.manage/
+git remote add upstream https://github.com/TobieSurette/gulf.manage.git
+cd ../gulf.metadata/
+git remote add upstream https://github.com/TobieSurette/gulf.metadata.git
+cd ../gulf.spatial/
+git remote add upstream https://github.com/TobieSurette/gulf.spatial.git
+cd ../gulf.stats/
+git remote add upstream https://github.com/TobieSurette/gulf.stats.git
+cd ../gulf.utils/
+git remote add upstream https://github.com/TobieSurette/gulf.utils.git
+
+
+I then followed the way the "spatstat"" package is organised as an umbrella package to use "gulf2" as an umbrella for Tobie's packages.
+

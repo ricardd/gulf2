@@ -1,11 +1,23 @@
 Package: gulf2
-Title: Tools to Extract and Analyse Fisheries-Related Information Available to the DFO Gulf Region
+Title: Tools to extract and analyse fisheries-related information available at DFO Gulf Region
 Version: 0.0.0.9000
+Date: 2022-05-02
 Authors@R: 
-    person("Daniel", "Ricard", , "Daniel.Ricard@dfo-mpo.gc.ca", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0002-5605-3940"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`
+    c(
+    person("Daniel", "Ricard", , "Daniel.Ricard@dfo-mpo.gc.ca", role = c("aut"),
+           comment = c(ORCID = "0000-0002-5605-3940")),
+    person("Tobie", "Surette", , "Tobie.Surette@dfo-mpo.gc.ca", role = c("aut")),
+    person("Pablo", "Vergara", , "Pablo.Vergara@dfo-mpo.gc.ca", role = c("aut", "cre")))
+Maintainer: Daniel Ricard <Daniel.Ricard@dfo-mpo.gc.ca>
+Depends: R (>= 4.1.1), gulf.data (>= 0.1.0), gulf.graphics (>= 0.1.0), gulf.metadata (>= 0.1.0), gulf.spatial (>= 0.1.0), gulf.stats (>= 0.1.0)
+Imports: gulf.utils (>= 0.1.0)
+Suggests: 
+    testthat (>= 3.0.0)
+Description: The 'gulf2' package is an umbrella for the collection of packages for accessing, manipulating, displaying and analyzing southern Gulf data sets.
+License: GPL-3
 Encoding: UTF-8
+NeedsCompilation: yes
+ByteCompile: true
+BugReports: https://github.com/ricardd/gulf2/issues
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
