@@ -2,7 +2,7 @@
 
 For a friendly introduction to spatstat, type the command
      vignette('getstart')
-which displays the document "Getting Started with Spatstat".
+which displays the document "Getting Started with gulf".
 
 For an overview of all capabilities, type
     help(gulf2)

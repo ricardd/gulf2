@@ -1,7 +1,7 @@
 ##  gulf2/R/First.R
 
 .onLoad <- function(...) {
-#  reset.gulf2.options()
+  reset.gulf2.options()
   umf <- system.file("doc", "umbrella.txt", package="gulf2")
   isum <- !is.null(umf) && file.exists(umf)
   putGulf2Variable("Gulf2.Is.Umbrella", isum)
@@ -16,7 +16,7 @@
   ni <- scan(file=nickfile, what=character(), n=1, quiet=TRUE)
   msg <- paste("\ngulf2", vs,
                "     ",
-               paren(paste("nickname:", sQuote(ni))),
+               spatstat.utils::paren(paste("nickname:", sQuote(ni))),
                "\nFor an introduction to gulf2, type",
                sQuote("beginner"), "\n")
   packageStartupMessage(msg)

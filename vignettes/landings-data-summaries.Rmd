@@ -1,0 +1,41 @@
+---
+title: "Using the gulf package to access landings data"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{landings-data-summaries}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(gulf2)
+```
+
+
+## Historical data from NAFO
+
+
+```{r}
+# x <- read.nafo(year=1960)
+
+```
+
+
+## Zonal Interchange File Format (ZIFF)
+
+
+```{r}
+# x <- read.nafo(year=1960)
+
+```
+
+
+## Wishlist for accessing landings data
+

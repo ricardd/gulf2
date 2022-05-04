@@ -12,6 +12,8 @@ Maintainer: Daniel Ricard <Daniel.Ricard@dfo-mpo.gc.ca>
 Depends: R (>= 4.1.1), gulf.data (>= 0.1.0), gulf.graphics (>= 0.1.0), gulf.metadata (>= 0.1.0), gulf.spatial (>= 0.1.0), gulf.stats (>= 0.1.0)
 Imports: gulf.utils (>= 0.1.0)
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Description: The 'gulf2' package is an umbrella for the collection of packages for accessing, manipulating, displaying and analyzing southern Gulf data sets.
 License: GPL-3
@@ -21,3 +23,4 @@ ByteCompile: true
 BugReports: https://github.com/ricardd/gulf2/issues
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+VignetteBuilder: knitr

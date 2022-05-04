@@ -1,3 +1,11 @@
+2022-05-04:
+
+Running into issues trying to use the same infrastructre as the spatstat package, so trying with the tidyverse instead.
+
+
+
+
+
 2022-05-02:
 
 The "gulf2" package is my attempt at creating an umbrella package to encapsulate Tobie Surette's new packages.
