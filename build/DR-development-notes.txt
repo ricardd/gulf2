@@ -1,11 +1,23 @@
+===========
 2022-05-04:
 
 Running into issues trying to use the same infrastructre as the spatstat package, so trying with the tidyverse instead.
 
+The only file I setup for now is "attach.R" which does the loading of the gulf.* packages.
 
+I also added a phony unit test, but I am getting an error when trying to run it.
 
+> test_check("gulf2")
+Error in `test_dir()`:
+! No test files found
+Backtrace:
+    x
+ 1. \-testthat::test_check("gulf2")
+ 2.   \-testthat::test_dir(...)
+ 3.     \-rlang::abort("No test files found")
+Execution halted
 
-
+===========
 2022-05-02:
 
 The "gulf2" package is my attempt at creating an umbrella package to encapsulate Tobie Surette's new packages.
