@@ -1,16 +1,22 @@
 Package: gulf2
 Title: Tools to extract and analyse fisheries-related information available at DFO Gulf Region
 Version: 0.0.0.9000
-Date: 2022-05-02
+Date: 2023-04-13
 Authors@R: 
     c(
     person("Daniel", "Ricard", , "Daniel.Ricard@dfo-mpo.gc.ca", role = c("aut"),
            comment = c(ORCID = "0000-0002-5605-3940")),
-    person("Tobie", "Surette", , "Tobie.Surette@dfo-mpo.gc.ca", role = c("aut")),
-    person("Pablo", "Vergara", , "Pablo.Vergara@dfo-mpo.gc.ca", role = c("aut", "cre")))
+    person("Tobie", "Surette", , "Tobie.Surette@dfo-mpo.gc.ca", role = c("aut", "cre")),
+    person("Pablo", "Vergara", , "Pablo.Vergara@dfo-mpo.gc.ca", role = c("aut")))
 Maintainer: Daniel Ricard <Daniel.Ricard@dfo-mpo.gc.ca>
-Depends: R (>= 4.1.1)
-Imports: gulf.utils (>= 0.1.0), gulf.data (>= 0.1.0), gulf.graphics (>= 0.1.0), gulf.metadata (>= 0.1.0), gulf.spatial (>= 0.1.0), gulf.stats (>= 0.1.0)
+Depends: R (>= 4.3.0)
+Imports: 
+    gulf.utils (>= 0.1.0), 
+    gulf.data (>= 0.1.0), 
+    gulf.graphics (>= 0.1.0), 
+    gulf.metadata (>= 0.1.0), 
+    gulf.spatial (>= 0.1.0), 
+    gulf.stats (>= 0.1.0)
 Suggests: 
     knitr,
     rmarkdown,

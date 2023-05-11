@@ -1,0 +1,29 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# gulf2
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+## What is gulf2?
+
+The gulf2 package is an umbrella for the collection of packages for
+accessing, manipulating, displaying and analyzing southern Gulf data
+sets.
+
+## gulf2 is split into a family of packages
+
+The original `gulf` package has now been divided into a family of
+sub-packages:
+
+| Sub-package     | GitHub repository                                                         | Description           |
+|-----------------|---------------------------------------------------------------------------|-----------------------|
+| `gulf.utils`    | [GitHub R package version](https://github.com/TobieSurette/gulf.utils)    | Basic utilities       |
+| `gulf.data`     | [GitHub R package version](https://github.com/TobieSurette/gulf.data)     | Data                  |
+| `gulf.graphics` | [GitHub R package version](https://github.com/TobieSurette/gulf.graphics) | Graphics              |
+| `gulf.manage`   | [GitHub R package version](https://github.com/TobieSurette/gulf.manage)   | Management utilities  |
+| `gulf.metadata` | [GitHub R package version](https://github.com/TobieSurette/gulf.metadata) | Metadata utilities    |
+| `gulf.spatial`  | [GitHub R package version](https://github.com/TobieSurette/gulf.spatial)  | Spatial utilities     |
+| `gulf.stats`    | [GitHub R package version](https://github.com/TobieSurette/gulf.stats)    | Statistical utilities |
+| `gulf2`         | [GitHub R package version](https://github.com/RicardD/gulf2)              | Umbrella package      |
