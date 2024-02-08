@@ -29,6 +29,7 @@ The original `gulf` package has now been divided into a family of sub-packages t
 
 | Sub-package | GitHub repository | Description |
 | ----------  | ----------------- | ----------  |
+| `gulf2` | [GitHub R package version](https://github.com/RicardD/gulf2) | Umbrella package |
 | `gulf.utils` | [GitHub R package version](https://github.com/TobieSurette/gulf.utils) | Basic utilities |
 | `gulf.data` | [GitHub R package version](https://github.com/TobieSurette/gulf.data) | Data |
 | `gulf.graphics` | [GitHub R package version](https://github.com/TobieSurette/gulf.graphics) | Graphics |
@@ -36,7 +37,6 @@ The original `gulf` package has now been divided into a family of sub-packages t
 | `gulf.metadata` | [GitHub R package version](https://github.com/TobieSurette/gulf.metadata) | Metadata utilities |
 | `gulf.spatial` | [GitHub R package version](https://github.com/TobieSurette/gulf.spatial) | Spatial utilities |
 | `gulf.stats` | [GitHub R package version](https://github.com/TobieSurette/gulf.stats) | Statistical utilities |
-| `gulf2` | [GitHub R package version](https://github.com/RicardD/gulf2) | Umbrella package |
 
 ## Installation
 When you install the umbrella package *gulf2*, all the sub-packages listed above will be installed. When you load the new umbrella *gulf2* package in an R session, all the sub-packages listed above will be loaded or imported.
@@ -45,5 +45,5 @@ You can install gulf2 from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("dfo-gulf-science/gulf2")
+devtools::install_github("ricardd/gulf2")
 ```
