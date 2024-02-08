@@ -1,16 +1,17 @@
 Package: gulf2
 Title: Tools to extract and analyse fisheries-related information available at DFO Gulf Region
 Version: 0.0.0.9000
-Date: 2023-04-13
+Date: 2023-08-30
 Authors@R: 
     c(
     person("Daniel", "Ricard", , "Daniel.Ricard@dfo-mpo.gc.ca", role = c("aut"),
            comment = c(ORCID = "0000-0002-5605-3940")),
+    person("Quentin", "Stoyel", , "Quenin.Stoyel@dfo-mpo.gc.ca", role = c("aut")),
     person("Tobie", "Surette", , "Tobie.Surette@dfo-mpo.gc.ca", role = c("aut", "cre")),
     person("Pablo", "Vergara", , "Pablo.Vergara@dfo-mpo.gc.ca", role = c("aut")))
 Maintainer: Daniel Ricard <Daniel.Ricard@dfo-mpo.gc.ca>
-Depends: R (>= 4.3.0)
-Imports: 
+Depends: 
+    R (>= 4.3.0),
     gulf.utils (>= 0.1.0), 
     gulf.data (>= 0.1.0), 
     gulf.graphics (>= 0.1.0), 
@@ -28,6 +29,6 @@ NeedsCompilation: yes
 ByteCompile: true
 BugReports: https://github.com/ricardd/gulf2/issues
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.3.1
 VignetteBuilder: knitr
 Config/testthat/edition: 3
